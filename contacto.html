@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Contacto</title>
+</head>
+<body>
+    <ul>
+        <li><a href="index.html">Inicio</a> </li>
+        <li><a href="nosotros.html"> Nosotros</a></li>
+        <li><a href="contacto.html"> Contacto</a></li>
+    </ul>
+    
+    <h1>Escribinos te respondemos a la brevedad!</h1>
+
+<form onclick="" action="" method="get">
+    <div>
+        <label for="txtNombre"><span>*</span>Nombre: </label>
+        <input type="text" name="txtNombre" id="txtNombre" required>
+    </div>
+
+    <div>
+        <label for="txtTelefono"><span>*</span>Teléfono: </label>
+        <input type="text" name="txtTelefono" id="txtTelefono"placeholder="(011)45887020" required>
+    </div>
+
+    <div>
+        <label for="txtCorreo"><span>*</span>Correo: </label>
+        <input type="email" name="txtCorreo" id="txtCorreo" required>
+    </div>
+
+    <div>
+        <label for="">Asunto:</label>
+        <select name="lstAsunto" id="lstAsunto">
+            <option value="" disabled selected>Seleccionar</option>
+            <option value="ventas">Ventas</option>
+            <option value="soporte">Soporte</option>
+            <option value="webmaster">Webmaster</option>
+        </select>
+    </div>
+
+    <div>
+        <label for="txtFecha">Fecha de nacimiento:</label>
+        <input type="date" name="txtFecha" id="txtFecha">
+    </div>
+
+    <div>
+        <label for="txtMensaje">Mensaje:</label>
+        <textarea name="txtMensaje" id="txtMensaje" cols="30"
+        rows="10"required></textarea>
+    </textarea>
+    </div>
+
+    <div>
+        <input type="checkbox" name="chkNovedades" id="chkNovedades">
+        <label for="chkNovedades">Deseo recibir novedades por correo</label>
+        <br>
+        <input type="checkbox" name="chkPrivacidad" id="chkPrivacidad">
+        <label for="chkPrivacidad">Acepto las politicas de privacidad y condiciones de uso</label>
+    </div>
+
+    <div>
+        <label for="">Eres mayor de edad?</label>
+        Si <input type="radio" name="optMayorEdad" id="optMayor">
+        No <input type="radio" name="optMayorEdad" id="optMenor">
+    </div>
+
+    
+    <div>
+        <label for="">País de origen</label>
+        <select name="lstPais" id="lstPais">
+            <option value="" selected disabled>seleccionar</option>
+            <optgroup label="Sudamerica">
+                <option value="54">Argentina</option>
+                <option value="55">Brasil</option>
+                <option value="57">Colombia</option>
+            </optgroup>
+            <optgroup label="Europa">
+                <option value="Es">España</option>
+                <option value="Fr">Francia</option>
+                <option value="Al">Alemania</option>
+            </optgroup>
+        </select>
+
+        <br>
+        <br>
+
+
+    </div>
+
+
+</form>
+<button type="submit">Enviar</button>
+
+</body>
+</html>
