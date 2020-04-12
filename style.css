@@ -32,11 +32,32 @@ img {
     width: 200px;
 }
 
+/* --------------------------Producto----------------------------- */
 .producto{
 background:rgb(223, 222, 220);
 width:500px;
+
 }
 
+.producto-detalle{
+    float: right;
+    clear: both;
+   
+}
+
+.detalle-item{
+    text-decoration: none;
+    list-style: none;
+    padding: 5px 5px;
+    
+}
+.section-tienda{
+    clear: both;
+    overflow: hidden;
+}
+
+/* ---------------------------------------------------------------- */
+/* -----------------------Formulario------------------------------- */
 
 
 input[type=text] input[type=date] input [type=email] {
@@ -74,3 +95,44 @@ form span{
 
 }
 
+/* ---------------------------------------------------------------- */
+/* -----------------------Menu------------------------------ */
+
+
+.menu{
+    
+
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    padding-left: 0px;
+    background: rgb(153, 53, 53);
+    font-size: 30px;
+    overflow: hidden;
+    
+}
+
+.menu-link {
+    
+    text-decoration: none;
+    display: block;
+    color: darkgray;
+    background: rgb(153, 53, 53);
+    padding: 10px 20px;
+    margin-bottom: 50px;
+    
+}
+
+.menu-item{
+    float: left;
+    list-style: none;
+    width: auto;
+}
+.section-form{
+    clear: both;
+}
+
+.menu-item :hover{
+    background: rgb(63, 62, 61) ;
+
+}
