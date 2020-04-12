@@ -136,3 +136,12 @@ form span{
     background: rgb(63, 62, 61) ;
 
 }
+
+/*/--------------------Nosotros----------------------/*/
+
+.section-nosotros{
+    width: 900px;
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(207, 202, 202);
+    }
